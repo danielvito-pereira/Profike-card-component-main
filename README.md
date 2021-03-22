@@ -21,7 +21,7 @@ Esta é uma solução para o desafio [Profile card component challenge on Fronte
 
 ### Screenshot
 
-![](./images\Projeto.png)
+![](images\Projeto.png)
 
 
 ### Links
