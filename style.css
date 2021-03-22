@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    margin: 0px;
+}
+
+#man-wapper {
+    display: flex;/*definia propriedade display do container como flex. Essa é a configuração que faz com que, de fato, a div utilize o recurso de layout flexível (Flexbox);*/
+    background-image: url(/profile-card-component-main/images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    flex-direction: column;/*os sejam dispostos horizontalmente, ou seja, em forma de linha (row);*/
+    justify-content: center;
+    align-items: center
+}
+.subtitle {
+    padding: 0.5em;
+    font-size: 13px;
+    color: hsl(227, 10%, 46%);
+}/*estilo do texto*/
+
+.content {
+    background-color: white;
+    height: 22em;
+    width: 20em;
+    border-radius: 5%;
+}/*div central*/
+
+.superior {
+    background-image: url(/images/bg-pattern-card.svg);
+    background-color:hsl(185, 75%, 39%);
+    height: 37%;
+    width: auto;
+    border-radius: 5% ;
+}
+
+img {
+    left:7em;
+    top:-2em;
+    margin-left:-120px;
+    margin-top:-40px;
+    margin: 0;
+    padding: 0; 
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.2em solid white;
+    position: absolute;   
+}
+
+.center-img {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    position: absolute;
+}/*cent a imagem */
+.container01 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,70px);
+}
+.box01 {
+    color: rgb(39, 33, 33);
+    padding: 5em;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 7px);
+    bottom: 0; 
+    
+}
+.box {
+    color: rgb(39, 33, 33);
+    padding: 1em;
+    text-align: center;
+}
+.item1 {
+    background-color:#fcfcfc;  
+}
+.item2 {
+    background-color:#ffffff;  
+}
+.item3 {
+    background-color:#ffffff;
+}
+/*footer*/
+.attribution {
+    display: block;
+    font-size: 11px;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 1.3em;
+    }
+
+    .content {
+        width: 375px;
+        background-color: white;
+        height: 18em;
+        width: 18em;
+        border-radius: 5%;
+    }
+    img {
+        left:6em;
+        top:-2em;
+        margin-left:-120px;
+        margin-top:-40px;
+        margin: 0;
+        padding: 0; 
+        border-radius: 50%;
+        overflow: hidden;
+        border: 0.2em solid white;
+        position: absolute;   
+    }
+}/*mobile*/
+
