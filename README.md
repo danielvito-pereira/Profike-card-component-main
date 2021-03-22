@@ -21,7 +21,7 @@ Esta é uma solução para o desafio [Profile card component challenge on Fronte
 
 ### Screenshot
 
-![Screenshot](images\Projeto.png)
+<img src="/images/Projeto.png" alt="" srcset="">
 
 
 ### Links
