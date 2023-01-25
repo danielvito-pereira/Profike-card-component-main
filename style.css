@@ -15,7 +15,10 @@
     align-items:center;
     justify-content:center;
     background-color: hsl(185, 75%, 39%);
-    background-image: url(../profile-card-component-main/images/bg-pattern-top.svg);
+    background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+                  
 }
 .subtitle {
     padding: 0.5em;
@@ -23,7 +26,7 @@
     color: hsl(227, 10%, 46%);
 }
 .content {
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(./images/bg-pattern-card.svg);
     width: 50%;
     max-width: 28.125rem;
     border-radius:10px;
